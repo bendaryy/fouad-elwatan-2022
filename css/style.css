@@ -6811,6 +6811,9 @@ textarea.form-control {
     text-align: center;
     margin: 5px auto;
   }
+  .contact-icon{
+    margin-left: 170px;
+  }
   
 }
 @media (min-width: 1200px) {
@@ -6837,6 +6840,9 @@ textarea.form-control {
   }
   .carousel-indicators{
     bottom:150px;
+  }
+  .contact-icon{
+    margin-left: 180px;
   }
   
 }
