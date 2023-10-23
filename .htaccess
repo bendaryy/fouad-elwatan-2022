@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+DirectoryIndex index.html
+
+RewriteEngine On
+RewriteRule ^$ index.html [L]
+# RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+</IfModule>
